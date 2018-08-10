@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @product = params[:product]
+    @product = params
 
   end
 
