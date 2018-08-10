@@ -4,5 +4,6 @@ class ProductsController < ApplicationController
   end
 
   def add
+    @product = Product.find_by(id: params[:id])
   end
 end
