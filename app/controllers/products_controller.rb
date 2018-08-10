@@ -1,8 +1,8 @@
 class ProductsController < ApplicationController
 
   def index
-  end 
+  end
 
-  def add 
+  def add
   end
 end
