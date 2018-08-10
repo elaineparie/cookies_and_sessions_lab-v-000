@@ -2,6 +2,7 @@
 class ProductsController < ApplicationController
 
   def index
+    cart << params[:product]
   end
 
   def add
