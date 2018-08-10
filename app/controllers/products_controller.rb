@@ -2,7 +2,7 @@
 class ProductsController < ApplicationController
 
   def index
-    cart << params[:product]
+    session[:cart] = cart
   end
 
   def add
