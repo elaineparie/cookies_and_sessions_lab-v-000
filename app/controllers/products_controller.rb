@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @product = Product.find_by(id: params[:id])
+    @product =params[:product_id]
 
   end
 
