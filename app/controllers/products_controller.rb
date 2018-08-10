@@ -1,7 +1,8 @@
 class ProductsController < ApplicationController
 
   def index
-    @product =params[:product_id]
+    binding.pry
+    @product = params[:product_id]
 
   end
 
